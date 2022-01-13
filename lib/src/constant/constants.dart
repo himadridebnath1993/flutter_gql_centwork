@@ -1,0 +1,14 @@
+const String USERNAME = "mobile";
+const String PASSWORD = "password";
+const String USER_ID = "user_id";
+const String TOKEN = "token";
+const String FCM_TOKEN = "fcm_token";
+const String TOKEN_KEY = "token_key";
+const String PROFILE_DETAILS = "profile";
+const String PRODUCTION_CODE = "#0000#";
+const String TEST_CODE = "#8888#";
+const String DEV_CODE = "#3333#";
+const String SERVER_CODE = "server_code";
+const String SERVICE_REQUESTED = "service_requested";
+const String HELP_LINE = "+919606926467";
+const int ORGANIZATION_ID = 1;
