@@ -5,10 +5,13 @@ import 'package:rainbow/src/app_config.dart';
 import 'src/base/bloc/base_bloc_observer.dart';
 
 void main() async {
-  Bloc.observer = BaseBlocObserver();
   var config = AppConfig(TestApp(), portal: '');
-
-  runApp(config);
+  BlocOverrides.runZoned(
+    () {
+      runApp(config);
+    },
+    blocObserver: BaseBlocObserver(),
+  );
 }
 
 class TestApp extends StatelessWidget {
